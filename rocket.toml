@@ -1,0 +1,6 @@
+[global]
+address = "0.0.0.0"
+port = 8000
+
+[global.databases]
+wahapi_40k_db = { url = "postgres://wahapi_user:admin@database/wahapi_40k" }
